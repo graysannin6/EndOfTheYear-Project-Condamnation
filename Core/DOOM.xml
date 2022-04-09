@@ -1,0 +1,237 @@
+<scene>
+    <GameObjectList count="19">
+        <GameObject name="Ceiling" mesh="3" shader="0" tag="NonDestructable">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="200" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="200" m2-3="0" m3-0="0" m3-1="0" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp">
+                    <texture>../Resources/Textures/brick.png</texture>
+                </Component>
+                <Component type="BoxColliderComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Wall1" mesh="3" shader="0" tag="NonDestructable">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="199.99998" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="-4.3711388e-08" m1-2="1" m1-3="0" m2-0="0" m2-1="-40" m2-2="-1.7484556e-06" m2-3="0" m3-0="0" m3-1="20" m3-2="99" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp">
+                    <texture>../Resources/Textures/brick.png</texture>
+                </Component>
+                <Component type="BoxColliderComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Wall2" mesh="3" shader="0" tag="NonDestructable">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="199.99998" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="-2.1855694e-08" m1-2="0.5" m1-3="0" m2-0="0" m2-1="-40" m2-2="-1.7484556e-06" m2-3="0" m3-0="0" m3-1="20" m3-2="-99" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp">
+                    <texture>../Resources/Textures/brick.png</texture>
+                </Component>
+                <Component type="BoxColliderComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Wall3" mesh="3" shader="0" tag="NonDestructable">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="-8.7422768e-06" m0-1="-8.7422777e-06" m0-2="200" m0-3="0" m1-0="-0.49999997" m1-1="9.5534273e-16" m1-2="-2.1855694e-08" m1-3="0" m2-0="0" m2-1="-39.999996" m2-2="-1.7484554e-06" m2-3="0" m3-0="99" m3-1="20" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp">
+                    <texture>../Resources/Textures/brick.png</texture>
+                </Component>
+                <Component type="BoxColliderComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Wall4" mesh="3" shader="0" tag="NonDestructable">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="-8.7422768e-06" m0-1="-8.7422777e-06" m0-2="200" m0-3="0" m1-0="-0.49999997" m1-1="9.5534273e-16" m1-2="-2.1855694e-08" m1-3="0" m2-0="0" m2-1="-39.999996" m2-2="-1.7484554e-06" m2-3="0" m3-0="-99" m3-1="20" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp">
+                    <texture>../Resources/Textures/brick.png</texture>
+                </Component>
+                <Component type="BoxColliderComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Wall5" mesh="3" shader="0" tag="">
+            <ComponentList count="3">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="0" m3-1="0" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Ramp" mesh="3" shader="0" tag="">
+            <ComponentList count="3">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="0" m3-1="0" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Floor" mesh="3" shader="0" tag="NonDestructable">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="200" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="200" m2-3="0" m3-0="0" m3-1="40" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp">
+                    <texture>../Resources/Textures/brick.png</texture>
+                </Component>
+                <Component type="BoxColliderComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Torch1" mesh="1" shader="1" tag="">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="60" m3-1="25" m3-2="60" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+                <Component type="LightComp">
+                    <position x="60" y="25" z="60"/>
+                    <color r="1" g="0" b="0"/>
+                    <intensity>400</intensity>
+                </Component>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Torch2" mesh="1" shader="1" tag="">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="-60" m3-1="25" m3-2="-60" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+                <Component type="LightComp">
+                    <position x="-60" y="25" z="-60"/>
+                    <color r="0" g="1" b="0"/>
+                    <intensity>400</intensity>
+                </Component>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Torch3" mesh="1" shader="1" tag="">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="60" m3-1="25" m3-2="-60" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+                <Component type="LightComp">
+                    <position x="60" y="25" z="-60"/>
+                    <color r="0" g="0" b="1"/>
+                    <intensity>400</intensity>
+                </Component>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Torch4" mesh="1" shader="1" tag="">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="-60" m3-1="25" m3-2="60" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+                <Component type="LightComp">
+                    <position x="-60" y="25" z="60"/>
+                    <color r="1" g="0" b="1"/>
+                    <intensity>400</intensity>
+                </Component>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Directionnal" mesh="1" shader="1" tag="">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="0" m3-1="25" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+                <Component type="LightComp">
+                    <position x="0" y="25" z="0"/>
+                    <color r="0" g="0" b="0"/>
+                </Component>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="OrangeLight" mesh="1" shader="1" tag="">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="0" m3-1="0" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+                <Component type="LightComp">
+                    <color r="0" g="1" b="1"/>
+                    <intensity>10</intensity>
+                </Component>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="BlueLight" mesh="1" shader="1" tag="">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="0" m3-1="40" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+                <Component type="LightComp">
+                    <position x="0" y="40" z="0"/>
+                    <color r="1" g="1" b="0"/>
+                    <intensity>400</intensity>
+                </Component>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Link" mesh="0" shader="0" tag="">
+            <ComponentList count="5">
+                <Component type="TransformComp">
+                    <transMat m0-0="0.1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="0.1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="0.1" m2-3="0" m3-0="10" m3-1="60" m3-2="10" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp">
+                    <texture>../Resources/Textures/youngLink.png</texture>
+                </Component>
+                <Component type="BoxColliderComp"/>
+                <Component type="RigidBodyComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Link2" mesh="0" shader="0" tag="">
+            <ComponentList count="5">
+                <Component type="TransformComp">
+                    <transMat m0-0="0.1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="0.1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="0.1" m2-3="0" m3-0="0" m3-1="80" m3-2="10" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp">
+                    <texture>../Resources/Textures/youngLink.png</texture>
+                </Component>
+                <Component type="BoxColliderComp"/>
+                <Component type="RigidBodyComp"/>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Gun" mesh="2" shader="0" tag="">
+            <ComponentList count="3">
+                <Component type="TransformComp">
+                    <transMat m0-0="10" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="10" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="10" m2-3="0" m3-0="0" m3-1="0" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp">
+                    <texture>../Resources/Textures/huntinggun.png</texture>
+                </Component>
+            </ComponentList>
+        </GameObject>
+        <GameObject name="Player" mesh="1" shader="0" tag="">
+            <ComponentList count="4">
+                <Component type="TransformComp">
+                    <transMat m0-0="1" m0-1="0" m0-2="0" m0-3="0" m1-0="0" m1-1="1" m1-2="0" m1-3="0" m2-0="0" m2-1="0" m2-2="1" m2-3="0" m3-0="-70" m3-1="10" m3-2="0" m3-3="1"/>
+                </Component>
+                <Component type="ModelComp"/>
+                <Component type="MaterialComp"/>
+                <Component type="PlayerComp"/>
+            </ComponentList>
+        </GameObject>
+    </GameObjectList>
+</scene>
